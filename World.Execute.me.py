@@ -91,9 +91,9 @@ while Complite == False:
             time.sleep(0.2)
             World.slow_print(style.RED+"\n If I'm a "+style.RESET,0.02 )
             World.slow_print(style.RED+"circle\n\n"+style.RESET,0.04 )
-            data["Circel"] = len(data["setOfPoint"])
-            if data["Circel"] == len(data["setOfPoint"]):
-                data["im"] = data["Circel"]
+            data["Circle"] = len(data["setOfPoint"])
+            if data["Circle"] == len(data["setOfPoint"]):
+                data["im"] = data["Circle"]
                 World.prettyPrint(data)
                 World.slow_print(style.RED+"\n Then I will give you "+style.RESET,0.03 )
                 World.slow_print(style.RED+" my"+style.RESET,0.04 )
